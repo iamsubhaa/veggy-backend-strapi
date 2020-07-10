@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "off": {
+      "type": "integer"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
